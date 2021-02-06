@@ -6,8 +6,8 @@ body{
 	border-radius: 0;
 }
 .navbar-default {
-    background-color: rgba(245, 245, 220, .7);
-    border-color: rgba(245, 245, 220, .6);
+    background-color: #cfbb29;
+    border-color: #cfbb29;
     box-shadow: 0px 3px 3px 0px #ddd;
 }
 .navbar-default .navbar-nav>.active>a,
