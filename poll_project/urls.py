@@ -24,4 +24,6 @@ urlpatterns = [
     path('vote/<poll_id>/', poll_views.vote, name='vote'),
     path('results/<poll_id>/', poll_views.results, name='results'),
 
+    url(r'^media/(?P<path>.*)$', serve, {'document_root': settings.MEDIA_ROOT}),
+    url(r'^static/(?P<path>.*)$', serve, {'document_root': settings.STATIC_ROOT}),
 ]
